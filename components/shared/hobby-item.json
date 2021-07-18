@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_hobby_items",
+  "info": {
+    "name": "hobbyItem",
+    "icon": "sitemap",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hobbyTitle": {
+      "type": "string"
+    },
+    "hobbyDescription": {
+      "type": "text"
+    },
+    "hobbyIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.icon",
+      "required": true
+    }
+  }
+}

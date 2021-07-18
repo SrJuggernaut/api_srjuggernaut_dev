@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_curriculum_knowledge_item_sons",
+  "info": {
+    "name": "knowledgeItemSon",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "generals",
+  "info": {
+    "name": "general",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "footerSection1": {
+      "type": "dynamiczone",
+      "components": [
+        "general.footer-heading",
+        "general.footer-link-list",
+        "content.button"
+      ]
+    },
+    "footerSection2": {
+      "type": "dynamiczone",
+      "components": [
+        "general.footer-heading",
+        "general.footer-link-list",
+        "content.button"
+      ]
+    },
+    "footerSection3": {
+      "type": "dynamiczone",
+      "components": [
+        "general.footer-heading",
+        "general.footer-link-list",
+        "content.button"
+      ]
+    }
+  }
+}

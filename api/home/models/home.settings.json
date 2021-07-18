@@ -1,0 +1,71 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroTitle": {
+      "type": "string",
+      "required": true
+    },
+    "heroSubTitle": {
+      "type": "string",
+      "required": true
+    },
+    "projectsTitle": {
+      "type": "string",
+      "required": true
+    },
+    "projectsBtnText": {
+      "type": "string"
+    },
+    "curriculumTitle": {
+      "type": "string",
+      "required": true
+    },
+    "curriculumDescription": {
+      "type": "text"
+    },
+    "curriculumBtnText": {
+      "type": "string"
+    },
+    "blogTitle": {
+      "type": "string"
+    },
+    "blogBtnText": {
+      "type": "string"
+    },
+    "hobbiesTitle": {
+      "type": "string"
+    },
+    "curriculumImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "hobbies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hobby-item"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": true
+    }
+  }
+}

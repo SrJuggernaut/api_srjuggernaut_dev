@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/curriculum",
+      "handler": "curriculum.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/curriculum",
+      "handler": "curriculum.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/curriculum",
+      "handler": "curriculum.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

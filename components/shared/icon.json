@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_shared_icons",
+  "info": {
+    "name": "icon",
+    "icon": "icons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "iconName": {
+      "type": "enumeration",
+      "enum": [
+        "bars",
+        "book_open",
+        "certificate",
+        "chess_king_alt",
+        "chevron_up",
+        "chevron_right",
+        "chevron_left",
+        "chevron_down",
+        "code",
+        "dice_d20",
+        "download",
+        "ellipsis_h",
+        "ellipsis_v",
+        "gamepad_alt",
+        "headphones_alt",
+        "horizontal_rule",
+        "moon",
+        "music",
+        "paper_plane",
+        "puzzle_piece",
+        "robot",
+        "star",
+        "sun",
+        "tag",
+        "upload"
+      ],
+      "default": "star",
+      "required": true
+    },
+    "iconFixedWidth": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "iconAnimation": {
+      "type": "enumeration",
+      "enum": [
+        "none",
+        "spin",
+        "pulse"
+      ],
+      "default": "none",
+      "required": true
+    }
+  }
+}

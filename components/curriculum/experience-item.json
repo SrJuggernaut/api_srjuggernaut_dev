@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_curriculum_experience_items",
+  "info": {
+    "name": "experienceItem",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "experienceStart": {
+      "type": "date",
+      "required": true
+    },
+    "experienceEnd": {
+      "type": "date"
+    },
+    "experienceDescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

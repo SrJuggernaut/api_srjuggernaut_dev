@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_general_footer_link_lists",
+  "info": {
+    "name": "footerLinkList",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "footerLinkItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.footer-list-item"
+    }
+  }
+}

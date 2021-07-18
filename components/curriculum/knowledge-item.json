@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_curriculum_knowledge_items",
+  "info": {
+    "name": "knowledgeItem",
+    "icon": "chevron-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "knowledgeItemSon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "curriculum.knowledge-item-son",
+      "required": true
+    }
+  }
+}

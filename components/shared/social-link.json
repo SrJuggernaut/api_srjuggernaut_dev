@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_social_links",
+  "info": {
+    "name": "socialLink",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialUrl": {
+      "type": "string",
+      "required": true
+    },
+    "socialIcon": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "twitter",
+        "git",
+        "github",
+        "gitlab"
+      ],
+      "required": true,
+      "default": "facebook"
+    },
+    "socialName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

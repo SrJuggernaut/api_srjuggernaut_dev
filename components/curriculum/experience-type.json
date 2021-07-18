@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_curriculum_experience_types",
+  "info": {
+    "name": "experienceType",
+    "icon": "list-ul",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "experienceTypeTitle": {
+      "type": "string",
+      "required": true
+    },
+    "experienceItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "curriculum.experience-item",
+      "required": true
+    }
+  }
+}

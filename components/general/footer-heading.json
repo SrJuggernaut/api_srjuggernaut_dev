@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_general_footer_headings",
+  "info": {
+    "name": "footerHeading",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "headingTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

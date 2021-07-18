@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_footer_list_items",
+  "info": {
+    "name": "footerListItem",
+    "icon": "satellite-dish"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "linkUrl": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_curriculum_languages_items",
+  "info": {
+    "name": "languagesItem",
+    "icon": "angle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "level": {
+      "type": "string",
+      "required": true
+    },
+    "institution": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

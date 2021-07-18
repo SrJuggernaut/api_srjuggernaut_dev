@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_content_images",
+  "info": {
+    "name": "image",
+    "icon": "image"
+  },
+  "options": {},
+  "attributes": {
+    "imageFile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "imageShowCaption": {
+      "type": "boolean"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": false
+    }
+  }
+}

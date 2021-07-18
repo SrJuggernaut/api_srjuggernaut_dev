@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_content_buttons",
+  "info": {
+    "name": "button",
+    "icon": "square",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "buttonStyle": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "accent",
+        "transparent"
+      ],
+      "required": true,
+      "default": "primary"
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "buttonUrl": {
+      "type": "string"
+    },
+    "buttonAlignment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right",
+        "center",
+        "justified"
+      ]
+    },
+    "iconPosition": {
+      "type": "enumeration",
+      "enum": [
+        "before",
+        "after"
+      ],
+      "required": true,
+      "default": "before"
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.icon",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "kind": "singleType",
+  "collectionName": "curricula",
+  "info": {
+    "name": "curriculum",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "experienceTitle": {
+      "type": "string",
+      "required": true
+    },
+    "experienceTypes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "curriculum.experience-type",
+      "required": true
+    },
+    "educationTitle": {
+      "type": "string",
+      "required": true
+    },
+    "educationItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "curriculum.education-item",
+      "required": true
+    },
+    "knowledgeTitle": {
+      "type": "string",
+      "required": true
+    },
+    "knowledgeItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "curriculum.knowledge-item",
+      "required": true
+    },
+    "languagesTitle": {
+      "type": "string",
+      "required": true
+    },
+    "languagesItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "curriculum.languages-item"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo",
+      "required": true
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

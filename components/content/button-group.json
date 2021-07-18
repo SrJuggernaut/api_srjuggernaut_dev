@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_content_button_groups",
+  "info": {
+    "name": "buttonGroup",
+    "icon": "grip-horizontal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.button",
+      "required": true
+    },
+    "buttonGroupAlignment": {
+      "type": "enumeration",
+      "enum": [
+        "start",
+        "center",
+        "end",
+        "between",
+        "around"
+      ],
+      "default": "center",
+      "required": true
+    }
+  }
+}

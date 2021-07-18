@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_curriculum_education_items",
+  "info": {
+    "name": "educationItem",
+    "icon": "th-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "institution": {
+      "type": "string",
+      "required": true
+    },
+    "educationStart": {
+      "type": "date"
+    },
+    "educationEnd": {
+      "type": "date",
+      "required": true
+    },
+    "educationDescription": {
+      "type": "text",
+      "required": true
+    },
+    "educationBtnUrl": {
+      "type": "string",
+      "required": true
+    },
+    "educationBtnText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
