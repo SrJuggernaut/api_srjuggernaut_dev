@@ -22,7 +22,8 @@
       "required": true
     },
     "buttonUrl": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "buttonAlignment": {
       "type": "enumeration",
@@ -31,7 +32,9 @@
         "right",
         "center",
         "justified"
-      ]
+      ],
+      "default": "center",
+      "required": true
     },
     "iconPosition": {
       "type": "enumeration",

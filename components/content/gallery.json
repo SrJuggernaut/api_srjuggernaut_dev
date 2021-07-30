@@ -10,7 +10,8 @@
     "images": {
       "type": "component",
       "repeatable": true,
-      "component": "content.image"
+      "component": "content.image",
+      "required": true
     }
   }
 }

@@ -2,7 +2,8 @@
   "collectionName": "components_content_headings",
   "info": {
     "name": "heading",
-    "icon": "heading"
+    "icon": "heading",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -32,14 +33,19 @@
         "left",
         "center",
         "right"
-      ]
+      ],
+      "default": "center",
+      "required": true
     },
     "headingStyle": {
       "type": "enumeration",
       "enum": [
+        "none",
         "primary",
         "accent"
-      ]
+      ],
+      "default": "none",
+      "required": true
     }
   }
 }
